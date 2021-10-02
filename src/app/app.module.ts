@@ -8,18 +8,24 @@ import { HomeComponent } from './views/home/home.component';
 import { AppRoutingModule } from './app-routing.module';
 import { FavoritoComponent } from './favorito/favorito.component';
 import { SignupComponent } from './signup/signup.component';
+import { HeaderComponent } from './header/header.component';
+import { SliderComponent } from './slider/slider.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     FavoritoComponent,
-    SignupComponent
+    SignupComponent,
+    HeaderComponent,
+    SliderComponent,
+
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
