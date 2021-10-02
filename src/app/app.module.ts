@@ -10,15 +10,18 @@ import { FavoritoComponent } from './favorito/favorito.component';
 import { SignupComponent } from './signup/signup.component';
 import { HeaderComponent } from './header/header.component';
 import { SliderComponent } from './slider/slider.component';
-
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatIconModule} from '@angular/material/icon';
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
+    HeaderComponent,
     AppComponent,
     HomeComponent,
     FavoritoComponent,
     SignupComponent,
-    HeaderComponent,
+
     SliderComponent,
 
   ],
@@ -26,6 +29,9 @@ import { SliderComponent } from './slider/slider.component';
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
+    MatToolbarModule,
+    MatIconModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
