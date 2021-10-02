@@ -1,11 +1,25 @@
+//A virgula do componete home faz a diferença, se tirar quebra o link da navegação
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './views/home/home.component';
+import { FavoritoComponent } from './favorito/favorito.component';
+import { SignupComponent } from './signup/signup.component';
 
 const routes: Routes = [
-  { path: '',
-   component:  HomeComponent
-   }
+  { path: 'home',
+   component:  HomeComponent,
+   },
+
+   {
+    path: 'favorito',
+    component: FavoritoComponent,
+},
+
+{
+  path: 'signup',
+  component: SignupComponent
+}
+
 ];
 
 @NgModule({
