@@ -55,3 +55,6 @@ section {
 .mat-button:hover{
   background-color: rgba(131, 131, 131, 0.377);
 }
+.mat-button:active{
+  border-color: rgb(33, 255, 100);
+}

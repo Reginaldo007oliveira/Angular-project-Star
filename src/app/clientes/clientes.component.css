@@ -1,0 +1,23 @@
+.icon-holder {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #ffdd47;
+  border-radius: 50%;
+
+  flex-wrap: nowrap;
+  height: 90px;
+
+  margin: 0 auto 45px;
+  width: 90px;
+}
+.h1{
+  align-items: center;
+}
+.example-spacer {
+  flex: 1 1 auto;
+}
+.fa-icon{
+align-items: center;
+}
