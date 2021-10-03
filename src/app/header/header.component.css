@@ -36,3 +36,22 @@ section {
   justify-content: center;
   width: 120px;
 }
+
+.mat-primary{
+  color: rgb(77, 199, 47);
+
+}
+.mat-flat-button{
+  color:rgb(226, 177, 43);
+  background-color: cadetblue;
+}
+.mat-raised-button{
+  color: rgb(29, 199, 230);
+}
+.mat-button{
+  background-color: rgba(131, 131, 131, 0.082);
+}
+
+.mat-button:hover{
+  background-color: rgba(131, 131, 131, 0.377);
+}

@@ -2,10 +2,11 @@
 
 <app-header></app-header>
 <h1>{{title}}</h1>
+<fa-icon [icon]="faCoffee"></fa-icon>
 <nav>
-  <a routerLink="/home">Home</a>
-  <a routerLink="/favorito">Favorito</a>
-  <a routerLink="/signup">Signup</a>
+  <a mat-button routerLink="/home">Home</a>
+  <a mat-button  routerLink="/favorito">Favorito</a>
+  <a mat-button  routerLink="/signup">Signup</a>
 </nav>
 
 <router-outlet></router-outlet>
