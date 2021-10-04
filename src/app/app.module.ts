@@ -15,6 +15,8 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ClientesComponent } from './clientes/clientes.component';
+import {MatSliderModule} from '@angular/material/slider';
+import {MatGridListModule} from '@angular/material/grid-list';
 
 
 @NgModule({
@@ -36,7 +38,9 @@ import { ClientesComponent } from './clientes/clientes.component';
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    MatSliderModule,
+    MatGridListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
