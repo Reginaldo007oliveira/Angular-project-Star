@@ -1,13 +1,13 @@
 .icon-holder {
   align-items: center;
-  background-color: #ffdd47;
+  background-color: #6cff47;
   border-radius: 50%;
   display: flex;
   flex-wrap: nowrap;
-  height: 90px;
+  height: 600px;
   justify-content: center;
   margin: 0 auto 45px;
-  width: 90px;
+  width: 600px;
 }
 .h1{
   align-items: center;
@@ -17,4 +17,7 @@
 }
 .fa-icon{
 align-items: center;
+}
+.globalzona{
+  text-align: center;
 }

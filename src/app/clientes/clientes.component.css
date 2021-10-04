@@ -1,10 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
 .icon-holder {
+  font-family: 'Ephesis', cursive;
+  color:cornsilk;
+  font-size: 44px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  background-color: #ffdd47;
+  background-color: #1b1919;
   border-radius: 50%;
+  flex-wrap: nowrap;
+  height: 336px;
+  margin: 1px auto 5px;
+  width: 336px;
+}
+
+.icon-holders {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #1b1919;
+  border-radius: 30%;
 
   flex-wrap: nowrap;
   height: 90px;
@@ -12,12 +30,17 @@
   margin: 0 auto 45px;
   width: 90px;
 }
-.h1{
-  align-items: center;
-}
-.example-spacer {
-  flex: 1 1 auto;
-}
+
+/* .example-spacer {
+  flex: 1 1 1  auto;
+} */
+
 .fa-icon{
 align-items: center;
+}
+.enois{
+  display: flex;
+}
+.enois2{
+  display: flex;
 }
