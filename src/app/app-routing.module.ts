@@ -6,6 +6,7 @@ import { FavoritoComponent } from './favorito/favorito.component';
 import { SignupComponent } from './signup/signup.component';
 import { ClientesComponent } from './clientes/clientes.component';
 
+
 const routes: Routes = [
   { path: 'home',
    component:  HomeComponent,
